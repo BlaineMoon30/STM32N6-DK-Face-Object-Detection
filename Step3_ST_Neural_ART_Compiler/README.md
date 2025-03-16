@@ -12,3 +12,5 @@
 </BR>ST_EdgeAI_PATH – Enter the installation path of X-CUBE-AI and STEdgeAI-NPU.
 </BR>AI_Model_Name – Enter the name of the TFLite or ONNX NN model located in the current directory.
 </BR>GCC_Tool_Objcopy – Enter the path to arm-none-eabi-objcopy.exe included in STM32CubeIDE.
+
+</BR>4.Run the stedgeai_generate.bat File
