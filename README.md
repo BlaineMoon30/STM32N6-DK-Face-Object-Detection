@@ -2,6 +2,15 @@
 
 This tutorial demonstrates how to deploy a pre-trained face object detection model built with quantized tflite or ONNX QDQ on an STM32N6 board using STEdgeAI.
 
+This demo provides a simple method for deploying a Face Object Detection model based on the YOLOv8n model to the STM32N6. Improving the model's accuracy or preparing additional datasets is up to the user.
+
+</BR>Please follow the steps from STEP1 to STEP4 in order.
+
+</BR>Step1_Data_Preparation – How to Use the WIDER FACE Dataset
+</BR>Step2_YOLOv8n_Training – How to Train YOLOv8n Using Ultralytics
+</BR>Step3_ST_Neural_ART_Compiler – How to Use the ST Neural ART Compiler
+</BR>Step4_Deploy_to_STM32N6_DK_Board – How to Deploy to the STM32N6 DK Board
+
 
 [Datasets]
 </BR>WIDER FACE : <http://shuoyang1213.me/WIDERFACE/>
