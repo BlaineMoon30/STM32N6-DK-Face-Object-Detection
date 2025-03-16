@@ -4,6 +4,9 @@ This tutorial demonstrates how to deploy a pre-trained face object detection mod
 
 This demo provides a simple method for deploying a Face Object Detection model based on the YOLOv8n model to the STM32N6. Improving the model's accuracy or preparing additional datasets is up to the user.
 
+</BR>For more details and information about the STM32N6, visit the official ST website.
+</BR><https://github.com/STMicroelectronics/stm32ai-modelzoo/tree/main>
+
 </BR>Please follow the steps from STEP1 to STEP4 in order.
 
 </BR>Step1_Data_Preparation – How to Use the WIDER FACE Dataset
