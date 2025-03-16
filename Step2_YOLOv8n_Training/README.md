@@ -12,3 +12,8 @@
 
 </BR>The NN evaluation metrics and accuracy-related details will be updated later.......
 
+
+</BR>stm32n6_dk_yolov8n_wider_face_UF_256.tflite
+</BR> 	Format - Int8
+</BR>   Resolution - 256x256x3
+
