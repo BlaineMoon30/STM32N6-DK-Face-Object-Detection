@@ -1,0 +1,7 @@
+train: /content/datasets/WIDER_FACE/images/train/
+val: /content/datasets/WIDER_FACE/images/val/
+
+# Classes
+names:
+  0: face
+  1: not_face

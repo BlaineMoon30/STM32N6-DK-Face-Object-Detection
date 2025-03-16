@@ -1,0 +1,106 @@
+;; Start Blob '_ec_blob_212'
+;; Start Epoch 212
+label 0xd4
+writefield 0 4 [16] 0x1
+write 21 0 0x174104c
+write 21 3 0x9062cf
+write 21 2 0x87f80
+write 21 256 0x0
+write 21 257 0xc1
+write 21 512 0x0
+write 21 513 0xf800
+write 21 514 0xff890249
+write 21 515 0xf806
+write 21 516 0xfbc90758
+write 21 517 0xf94a
+write 21 518 0xda1728ba
+write 21 519 0xa56
+write 21 520 0x521fd9ef
+write 21 521 0xaee6
+write 21 522 0x167cf6d2
+write 21 523 0xec5f
+write 21 524 0x0
+write 21 525 0x7f0
+write 21 526 0x0
+write 21 527 0x7f0
+write 21 528 0x0
+write 21 529 0x7f0
+writefield 0 4 [21] 0x1
+write 26 0 0x8000000
+write 26 0 0x15000060
+write 26 13 0x10411041
+write 26 2 0x78000
+write 26 7 0x8b047b16
+write 26 8 0xfffd
+write 26 12 0x0
+writefield 0 4 [2] 0x1
+write 7 0 0x80104
+write 7 2 0x3422a540
+write 7 3 0x540
+write 7 8 0x0
+write 7 7 0x0
+write 7 6 0x540
+write 7 12 0x6
+write 7 12 0x7
+write 7 14 0x3422aabf
+write 7 13 0x1
+write 7 9 0x24
+write 7 5 0x0
+write 7 18 0x0
+write 7 10 0x100000
+write 7 17 0x0
+writefield 0 4 [6] 0x1
+write 11 0 0x8010c
+write 11 2 0x3422aa80
+write 11 3 0x540
+write 11 8 0x0
+write 11 7 0x0
+write 11 6 0x540
+write 11 12 0x6
+write 11 12 0x7
+write 11 14 0x3422afff
+write 11 13 0x1
+write 11 9 0x24
+write 11 5 0x0
+write 11 18 0x0
+write 11 10 0x100000
+write 11 17 0x0
+write 4 0 0x2
+poll 4 0 [1] 0x0 100
+write 4 0 0x40000000
+poll 4 0 [30] 0x0 100
+write 4 0 0x1
+write 4 28 0x5
+write 4 36 0x21
+write 4 8 0x2b
+writefield 11 0 [0] 0x1
+writefield 21 0 [0] 0x1
+writefield 26 0 [0] 0x1
+writefield 7 0 [0] 0x1
+poll 11 0 [31] 0x0 100
+write 4 28 0x0
+write 4 36 0x0
+write 4 8 0x0
+write 11 0 0x2
+poll 11 0 [1] 0x0 100
+write 11 0 0x40000000
+poll 11 0 [30] 0x0 100
+writefield 0 4 [6] 0x0
+write 21 0 0x881082
+poll 21 0 [1] 0x0 100
+write 21 0 0x40881080
+poll 21 0 [30] 0x0 100
+writefield 0 4 [16] 0x0
+write 26 0 0x8000002
+poll 26 0 [1] 0x0 100
+write 26 0 0x48000000
+poll 26 0 [30] 0x0 100
+writefield 0 4 [21] 0x0
+write 7 0 0x2
+poll 7 0 [1] 0x0 100
+write 7 0 0x40000000
+poll 7 0 [30] 0x0 100
+writefield 0 4 [2] 0x0
+;; End Epoch 212
+irq 0x0
+;; End Blob '_ec_blob_212'

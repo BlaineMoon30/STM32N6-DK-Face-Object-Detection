@@ -1,0 +1,41 @@
+##### Modify the following content in app_config.h
+
+/* Model Related Info */
+#define POSTPROCESS_TYPE POSTPROCESS_OD_YOLO_V8_UF
+
+#if 0
+
+#define NN_WIDTH 224
+#define NN_HEIGHT 224
+#define NN_BPP 3
+
+#define COLOR_BGR (0)
+#define COLOR_RGB (1)
+#define COLOR_MODE COLOR_RGB
+
+#define NB_CLASSES 2
+#define CLASSES_TABLE const char* classes_table[NB_CLASSES] = {\
+"person",   "not_person"}
+
+#else
+
+#define NN_WIDTH 256
+#define NN_HEIGHT 256
+#define NN_BPP 3
+
+#define COLOR_BGR (0)
+#define COLOR_RGB (1)
+#define COLOR_MODE COLOR_RGB
+
+#define NB_CLASSES 1
+#define CLASSES_TABLE const char* classes_table[NB_CLASSES] = {\
+"Face"}
+
+#define AI_OBJDETECT_YOLOV8_PP_TOTAL_BOXES (1344)
+#define AI_OBJDETECT_YOLOV8_PP_NB_CLASSES (1)
+
+#define AI_OBJDETECT_YOLOV8_PP_MAX_BOXES_LIMIT (15)
+#define AI_OBJDETECT_YOLOV8_PP_CONF_THRESHOLD (0.6000000000f)
+#define AI_OBJDETECT_YOLOV8_PP_IOU_THRESHOLD  (0.1000000000f)
+
+#endif
