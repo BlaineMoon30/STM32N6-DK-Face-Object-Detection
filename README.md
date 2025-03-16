@@ -11,4 +11,5 @@ This tutorial demonstrates how to deploy a pre-trained face object detection mod
 
 [Hardware]
 </BR>STM32N6 Discovery Board
-</BR>![plot](./xDeployment/doc/img/STM32N6570-DK_Camera.JPG)
+</BR><https://www.st.com/en/evaluation-tools/stm32n6570-dk.html>
+</BR>![STM32N6570-DK Camera](./xDeployment/doc/img/STM32N6570-DK_Camera.jpg)
